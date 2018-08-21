@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Hello Laravel! - 演示一下</div>
+                <div class="title">Hello Laravel! - I'm, here </div>
             </div>
         </div>
     </body>
