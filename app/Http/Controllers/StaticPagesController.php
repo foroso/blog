@@ -20,4 +20,8 @@ class StaticPagesController extends Controller
     public function about(){
         return view('static_pages/about');
     }
+
+    public function login(){
+        return view('static_pages/login');
+    }
 }
