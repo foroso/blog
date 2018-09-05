@@ -11,6 +11,11 @@ class StaticPagesController extends Controller
         return view('static_pages/home');
     }
 
+    //list
+    public function category(){
+        return view('static_pages/category');
+    }
+
     //help
     public function help(){
         return view('static_pages/help');
@@ -23,5 +28,9 @@ class StaticPagesController extends Controller
 
     public function login(){
         return view('static_pages/login');
+    }
+
+    public function signup(){
+        return view('static_pages/signup');
     }
 }
